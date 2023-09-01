@@ -10,6 +10,10 @@ main {
 	font-family: 'Inter';
 	font-style: normal;
 }
+header {
+	height: 100%;
+	width: 100%;
+}
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -21,11 +25,11 @@ main {
 	padding-block: 30px;
 	align-items: center;
 	width: 100%;
-	height: 100%;
+	height: 6.25rem;
 }
 #header {
 	width: 100%;
-	height: 100%;
+	height: 55rem;
 }
 .top-header .name {
 	font-size: 26px;
@@ -285,10 +289,17 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
-
+@media all and (max-width: 1440px) {
+	#header {
+		height: 100%;
+	}
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
+	}
+	#header {
+		height: 100%;
 	}
 	#about, #contact .container {
 		align-items: center;
@@ -308,7 +319,9 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about{
 		flex-direction: column;
-
+	}
+	#header {
+		height: 100%;
 	}
 	.picture {
 		width: 50%;
@@ -368,6 +381,7 @@ input[type="submit"] {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
+		height: 10.5rem;
 	}
 	.top-header .nav, .top-header .nav ul {
 		width: 100%;
@@ -377,6 +391,9 @@ input[type="submit"] {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
+	}
+	#header {
+		height: 100%;
 	}
 	.nav img {
 		height: 20px;
