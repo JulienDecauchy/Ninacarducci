@@ -10,8 +10,16 @@ main {
 	font-family: 'Inter';
 	font-style: normal;
 }
+.blockquote {
+	width: 100%;
+	height: 100%;
+}
 header {
 	height: 61rem;
+	width: 100%;
+}
+footer {
+	height: 100%;
 	width: 100%;
 }
 .top-header {
@@ -72,8 +80,8 @@ header {
 }
 
 #about img {
-	width: 100%;
-	height: 100%;
+	width: 400px;
+	height: 400px;
 }
 
 .carousel-inner img {
@@ -174,8 +182,8 @@ header {
 }
 .gallery-item {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 440px;
+	height: 440px;
 	object-fit: cover;
 	padding: .5em;
 }
@@ -314,6 +322,10 @@ input[type="submit"] {
 	header {
 		height: 100%;
 	}
+	.gallery-item {
+		width: 100%;
+		height: 100%;
+	}
 	.picture {
 		flex : 2;
 	}
@@ -322,6 +334,10 @@ input[type="submit"] {
 	}
 	#about, #contact .container {
 		align-items: center;
+	}
+	#about img {
+		width: 100%;
+		height: 100%;
 	}
 	.about-me__title {
 		margin-top: 0;
