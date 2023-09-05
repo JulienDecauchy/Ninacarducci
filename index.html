@@ -5,19 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
 		content="Site web de la photographe Nina Carducci pour présenter son travail et la contacter, Catégorie: événements et portrait" />
-	
+
 	<!-- Schema.org meta for Google+ -->
 	<meta itemprop="name" content="Nina Carducci" />
-	<meta itemprop="description" content="Site web de la photographe Nina Carducci pour présenter son travail et la contacter, Catégorie: événements et portrait" />
-	<meta itemprop="image"
-		content="./assets/images/nina_600.png" />
+	<meta itemprop="description"
+		content="Site web de la photographe Nina Carducci pour présenter son travail et la contacter, Catégorie: événements et portrait" />
+	<meta itemprop="image" content="./assets/images/nina_600.png" />
 
 	<!-- Twitter summary card with large image must be at least 280x150px -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@https://ninacarducci.github.io/" />
 	<meta name="twitter:creator" content="@NinaCarducci" />
-	<meta name="twitter:title"
-		content="Nina Carducci" />
+	<meta name="twitter:title" content="Nina Carducci" />
 	<meta name="twitter:description"
 		content="Site web de la photographe Nina Carducci pour présenter son travail et la contacter, Catégorie: événements et portrait" />
 	<meta name="twitter:image" content="./assets/images/nina_600.png" />
@@ -25,7 +24,8 @@
 	<!-- Open Graph meta (Facebook, Linkedin) -->
 	<meta property="og:title" content="Nina Carducci" />
 	<meta property="og:type" content="article" />
-	<meta property="og:description" content="Site web de la photographe Nina Carducci pour présenter son travail et la contacter, Catégorie: événements et portrait" />
+	<meta property="og:description"
+		content="Site web de la photographe Nina Carducci pour présenter son travail et la contacter, Catégorie: événements et portrait" />
 	<meta property="author" content="Nina Carducci" />
 	<meta property="og:image" content="./assets/images/nina_600.png" />
 
@@ -171,7 +171,8 @@
 				<article class="service">
 					<div class="service__description">
 						<h3 itemprop="name">Shooting photo</h3>
-						<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace
+						<p itemprop="description">Pour capturer vos moments les plus précieux et garder un souvenir
+							impérissable. Je me déplace
 							en
 							Île-de-France pour réaliser vos photos</p>
 					</div>
@@ -183,7 +184,8 @@
 				<article class="service">
 					<div class="service__description">
 						<h3 itemprop="name">Retouches</h3>
-						<p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu
+						<p itemprop="description">Vous souhaitez retoucher vos photos pour un résultat professionnel ?
+							Bénéficier d’un rendu
 							optimal pour vos publications</p>
 					</div>
 					<div class="service__price">
@@ -194,7 +196,8 @@
 				<article class="service">
 					<div class="service__description">
 						<h3 itemprop="name">Album photos</h3>
-						<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers
+						<p itemprop="description">Partagez avec vos proches et vos clients les photos des moments
+							partagés ensemble à travers
 							un
 							album photo personnalisé</p>
 					</div>
@@ -220,8 +223,10 @@
 					<h2>Une question ? Une demande de devis ?</h2>
 					<p>Mon adresse : <span itemprop="address">68 avenue Alsace-Lorraine, 33200 Bordeaux.</span></p>
 					<p>Mon numéro de téléphone : <span itemprop="telephone">05 56 67 78 89.</span></p>
-					<p>Je réponds au téléphone du lundi au vendredi de 10h à 19h.</p>
-					<p>N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+					<div itemscope itemtype="https://schema.org/DateTime">
+						<p>Je réponds au téléphone du <span itemprop="startDate">lundi</span> au <span itemprop="endDate">vendredi</span> de <span itemprop="startTime">10h</span> à <span itemprop="endTime">19h.</span></p>
+						<p>N’hésitez pas à m’écrire ! Je vous répondrais en <span itemprop="expectedArrivalUntil">moins de 24 heures</span></p>
+					</div>
 					<form action="#" method="post">
 						<label for="nom">Nom</label>
 						<input type="text" name="nom" id="nom">
