@@ -60,13 +60,9 @@ footer {
 	color: #000
 }
 
-.nav img {
-	height: 100%;
-	width: 100%;
-}
-
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -429,9 +425,6 @@ input[type="submit"] {
 	}
 	#header {
 		height: 100%;
-	}
-	.nav img {
-		height: 20px;
 	}
 	.picture.left::before, .picture.right::before {
 		height: 150px;
